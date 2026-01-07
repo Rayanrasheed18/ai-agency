@@ -1,8 +1,8 @@
 name: Continuous_Robot
 on:
   schedule:
-    - cron: '*/30 * * * *' # ئەمە وادەکات هەموو ٣٠ خولەک جارێک ڕۆبۆتەکە خۆی بەخەبە بێت و ئیش بکات
-  workflow_dispatch: # بۆ ئەوەی بە دەستی خۆت ڕەنی بکەیت
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 jobs:
   build:
